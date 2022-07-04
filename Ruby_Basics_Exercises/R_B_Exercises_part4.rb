@@ -66,6 +66,13 @@ puts 'Welcome! Your in!'
 
 #Dividing Numbers
 
+puts ">> Please enter the numerator:"
+numerator = gets.chomp.to_i
+puts ">>Please enter the denominator:"
+denominator = gets.chomp.to_i
+
+puts numerator / denominator
+
 
 
 
